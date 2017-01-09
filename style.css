@@ -1,0 +1,13 @@
+body {
+		background-color: darkgrey;
+		color: white;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+}
+.temp-info,
+.temp-icon{
+		margin: 0 auto;
+		width: 20%;
+		text-align: center; 
+}
