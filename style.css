@@ -6,7 +6,8 @@ body {
 		background-size: cover;
 }
 .temp-info,
-.temp-icon{
+.temp-icon,
+.temp-description{
 		margin: 0 auto;
 		width: 20%;
 		text-align: center; 

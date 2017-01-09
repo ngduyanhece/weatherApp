@@ -15,6 +15,8 @@ $(document).ready(function(){
 					$(".temp").html(tempInfor);
 					var iconUrl = "http://openweathermap.org/img/w/" + data.weather[0].icon +".png";
 					$("#ticon").attr("src", iconUrl);
+					var desciption = data.weather[0].description;
+					$("#description").html(desciption);
 			});
 			//retrieve the background image for the app 
 			var bgApi = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=c864ca4637988bf5231b051415b37dfa&lat="+lat+"&lon="+lon+"&radius=1&format=json&nojsoncallback=1";
